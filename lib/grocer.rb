@@ -4,7 +4,7 @@ def find_item_by_name_in_collection(name, collection)
       return item
     end
   end
-  return 'item was not found'
+  nil
 end
 
 # ## `find_item_by_name_in_collection`
