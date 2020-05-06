@@ -16,9 +16,8 @@ def consolidate_cart(cart)
       consolidated_cart << item
       item[:count] = 1
     end
-    consolidated_cart
   end
-
+  consolidated_cart
 end
 
 # ```rb
