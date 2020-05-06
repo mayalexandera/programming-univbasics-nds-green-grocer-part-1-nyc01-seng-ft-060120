@@ -1,10 +1,9 @@
 def find_item_by_name_in_collection(name, collection)
   collection.each do |item|
-    item[:item] === name.upcase
-      return item
+    if item[:item] === name.upcase ? return item : nil
     end
   end
-  nil
+
 end
 
 # ## `find_item_by_name_in_collection`
